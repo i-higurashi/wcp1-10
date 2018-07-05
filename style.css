@@ -1,0 +1,650 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.clearfix::after {
+ content: "";
+ display: block;
+ clear: both;
+}
+
+header{
+	background-color: #EC715F;
+}
+
+.headerbox{
+	width:1024px;
+	margin: 0 auto;
+}
+
+.headimage{
+	height:70px;
+}
+
+#humberger{
+	display: none;
+}
+
+.bar{
+	display: none;
+}
+
+.nav-list{
+	font-size: 16px;
+	color: #FAFAFA;
+	float: right;
+	height: 70px;
+}
+
+.nav-list-i{
+	display: inline-block;
+	list-style: none;
+	float: right;
+	padding-right: 30px;
+	padding-left: 30px;
+	padding-top: 20px;
+}
+
+
+.loremlpsum{
+    height: 650px;
+	background-image: url(img/mv.png);
+	background-size: cover;
+    background-position: center;
+}
+
+.loremlpsum-text{
+	font-size: 64px;
+	text-align: center;
+	color: #FAFAFA;
+	padding-top:200px;
+}
+
+.loremlpsum-stext{
+	color: white;
+	text-align: center;
+	font-size: 20px;
+}
+
+.portfolio1{
+	width: 100%;
+	background-color: #ECEFF1;
+
+}
+
+.portfolio2{
+    width: 920px;
+    margin:0 auto;
+
+}
+
+.portfolio-text{
+	font-size: 32px;
+	color: #000000;
+	padding-top: 90px;
+    text-align: center;
+
+}
+
+.line{
+	width: 70px;
+	height: 3px;
+	background-color: #EC715F;
+	margin: 0 auto;
+	margin-top: 8px;
+}
+
+
+
+.portfolio-stext{
+	font-size: 16px;
+	color: #000000;
+	margin-top: 30px;
+	margin-bottom: 30px;
+    text-align: center;
+}
+
+.portfolioimg1{
+	height:250px;
+	width: 300px;
+    background-image: url(img/sketch.jpg);
+	background-size: cover;
+    background-position: center;
+    float: left;
+}
+
+.portfolioimg2{
+	height:250px;
+	width: 300px;
+    background-image: url(img/websuku.png);
+	background-size: cover;
+    background-position: center;
+    float: left;
+    margin-right:10px;
+    margin-left:10px;
+    float: left;
+
+    }
+
+.portfolioimg3{
+    height:250px;
+	width: 300px;
+    background-image: url(img/write.jpg);
+	background-size: cover;
+    background-position: center;
+    float: left;
+
+}
+
+.portfolioimg4{
+    height:250px;
+	width: 300px;
+    background-image: url(img/webcamp.png);
+	background-size: cover;
+    background-position: center;
+    float: left;
+    margin-bottom: 90px;
+    margin-top: 10px;
+
+}
+
+.portfolioimg5{
+    height:250px;
+	width: 300px;
+    background-image: url(img/talk.jpg);
+	background-size: cover;
+    background-position: center;
+    float: left;
+    margin-bottom: 90px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 10px;
+
+}
+
+.portfolioimg6{
+	height:250px;
+	width: 300px;
+    background-image: url(img/webcamp-mother.png);
+	background-size: cover;
+    background-position: center;
+    float: left;
+    margin-bottom: 90px;
+    margin-top: 10px;
+}
+
+.feature{
+	width: 100%
+	background-color: white;
+
+}
+
+.feature-text{
+	width: 980px
+	margin: 0 auto;
+	text-align: center;
+	font-size: 32px;
+	color: #000000;
+	margin-top: 90px;
+	margin-bottom: 8px;
+}
+
+.feature-stext{
+	font-size: 16px;
+	color:#000000;
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+
+.feature-sstext {
+	width: 980px;
+	margin: 0 auto;
+}
+
+.ai1 {
+	float: left;
+	width: 320px;
+}
+
+.fa-accessible-icon{
+	font-size: 60px;
+}
+
+.ai1-text1{
+	font-size: 20px;
+	text-align: center;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+.ai1-text2 {
+	font-size: 16px;
+	color: #000000;
+	margin-bottom: 90px;
+}
+
+
+.ai2 {
+	float: left;
+	width: 320px;
+	margin-right:10px;
+	margin-left:10px;
+}
+
+.fa-address-book{
+	font-size: 60px;
+}
+
+.ai2-text1{
+	font-size: 20px;
+	text-align: center;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+.ai2-text2{
+	font-size: 16px;
+	color: #000000;
+    margin-bottom: 90px;
+}
+
+
+.ai3 {
+	float: left;
+	width: 320px;
+}
+
+.fa-algolia{
+	font-size: 60px;
+}
+
+.ai3-text1{
+	font-size: 20px;
+	text-align: center;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+.ai3-text2{
+	font-size: 16px;
+	color: #000000;
+	margin-bottom: 90px;
+}
+
+.profilecover{
+	background-color: #ECEFF1;
+}
+
+.profilevisual{
+	width:1024px;
+	margin: 0 auto;
+}
+
+.profilename{
+	font-size: 32px;
+	color: #000000;
+	padding-top:90px;
+	text-align: center;
+}
+
+.profiletext-1{
+	font-size: 16px;
+	color: #000000;
+	text-align: center;
+	margin-top: 30px;
+
+
+}
+
+.profilecut1{
+  width: 512px;
+  float: left;
+}
+
+.img2{
+  height:250px;
+  width:250px;
+  background-image: url(img/my-icon.jpg);
+  margin: 0 auto;
+  border-radius: 50%;
+}
+
+.profilecut2{
+  width: 512px;
+  float:right;
+}
+
+.profiletext-2{
+  font-size: 20px;
+  margin-top: 30px;
+
+}
+
+.profiletext-3{
+  font-size: 16px;
+  color: #000000;
+  margin-top: 5px;
+
+}
+
+.profiletext-4{
+	font-size: 20px;
+	margin-top: 20px;
+}
+
+.profiletext-5{
+	font-size: 16px;
+	color: #000000;
+	margin-top: 5px;
+	margin-bottom: 90px;
+}
+
+.contactcover{
+	padding-bottom: 90px;
+}
+
+.contactvisual{
+	width: 800px;
+	margin: 0 auto;
+}
+
+.contactname{
+	font-size: 32px;
+	color: #000000;
+	padding-top: 90px;
+	text-align: center;
+}
+
+.contact-text1{
+	font-size: 16px;
+	color:#000000;
+	text-align: center;
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+
+.contactcut1{
+	width:400px;
+	float:left;
+}
+
+.contactcut2{
+    width:400px;
+	float:right;
+}
+
+.contact-text2{
+	font-size: 20px;
+	text-align: center;
+}
+
+.contact-text3{
+	font-size: 15px;
+	text-align: center;
+	margin-top: 5px;
+}
+
+.contact-text4{
+	font-size: 20px;
+	margin-top: 20px;
+	text-align:center;
+}
+
+.contact-text5{
+	font-size: 15px;
+    text-align: center;
+    margin-top: 5px;
+}
+
+.iconcover{
+	width:200px;
+	margin: 0 auto;
+}
+
+.contacticon-text{
+	font-size: 20px;
+	margin-bottom: 5px;
+}
+
+.fa-facebook-square{
+	font-size: 50px;
+}
+
+.fa-twitter-square{
+	font-size: 50px;
+	margin-left: 20px;
+	margin-right: 20px;
+
+}
+
+.fa-instagram{
+	font-size: 50px;
+
+}
+
+footer{
+	width:100%;
+	height:60px;
+	font-size: 16px;
+	background-color: #EC715F;
+	color:#FAFAFA;
+	text-align: center;
+	padding-top: 20px;
+
+}
+
+
+.imgfail{
+	width: 920px;
+	height: 600px;
+}
+.box{
+	width: 920px;
+	height: 600px;
+	margin: auto;
+}
+@media screen and (max-width:425px) {
+  html {
+    width: 90%;
+	margin-right: 5%;
+    margin-left: 5%;
+}
+
+.header1{
+	height: 50px;
+}
+
+.nav-list{
+   display: none;
+}
+
+#humberger{
+  position: relative;
+  height: 44px;
+  width: 44px;
+  display: inline-block;
+  border: 1px solid #FFFFFF;
+  margin-bottom: 3px;
+  margin-top: 3px;
+  margin-right:8px;  
+  float:right;
+ }
+.bar{
+	height:3px;
+	width: 26px;
+	background-color: white;
+	display: block;
+	margin: 0 auto;
+	margin-top: 6px;
+
+}
+
+.bar1{
+   margin-top: 10px;
+}
+
+.headimage{
+	padding-left: 0;
+	height: 50px;
+}
+
+.loremlpsum{
+    background-image: url(img/code.png);
+    background-size: cover;
+    background-position: center;
+    height: 650px;
+
+}
+
+.headerbox{
+	width: 100%;
+}
+
+.portfolio1{
+	width:100%;
+}
+
+.portfolio2{
+	width:90%;
+	margin-right: 5%;
+    margin-left: 5%;
+}
+
+.portfolioimg1{
+    display: none;
+}
+
+.portfolioimg2{
+	height:250px;
+	width:300px;
+	margin: 0 auto;
+}
+
+.portfolioimg3{
+	display: none;
+}
+
+.portfolioimg4{
+	height:250px;
+	width:300px
+	margin: 0 auto;
+	margin-bottom: 0;
+}
+
+.portfolioimg5{
+	display: none;
+}
+
+.portfolioimg6{
+    height:250px;
+	width:300px
+	margin: 0 auto;
+}
+
+.feature-sstext{
+	width:90%;
+	margin-right: 5%;
+    margin-left: 5%;
+}
+
+.ai1{
+	margin: 0 auto;
+}
+
+.ai1-text2{
+	margin-bottom: 30px;
+}
+
+.ai2-text2{
+	margin-bottom: 30px;
+}
+
+.profiletext-1{
+	margin-bottom: 30px;
+}
+
+.profilevisual{
+	width:90%;
+	margin-right: 5%;
+	margin-left: 5%;
+}
+ 
+.profilevisual{
+    width:90%;
+	margin-right: 5%;
+	margin-left: 5%;
+}
+
+.profilecut1 {
+	width:90%;
+	margin-right: 5%;
+	margin-left: 5%;
+}
+
+.profilecut2{
+	width:90%;
+	margin-right: 5%;
+	margin-left: 5%;
+}
+
+.profiletext-2{
+	text-align: center;
+}
+
+.profiletext-3{
+    text-align: center;
+}
+
+.profiletext-4{
+	text-align: center;
+}
+
+.profiletext-5{
+	text-align: center;
+}
+
+.contactcut1{
+	width:90%;
+	margin-right: 5%;
+	margin-left: 5%;
+}
+
+.contactcut2 {
+	width:90%;
+	margin-right: 5%;
+	margin-left: 5%;
+}
+
+.contactcut2{
+	text-align: center;
+}
+
+.img2 {
+	width:90%;
+	margin-right: 5%;
+	margin-left: 5%;
+}
+
+.contactvisual{
+	width:90%;
+	margin-right: 5%;
+	margin-left: 5%;
+}
+
+.imgfail{
+	width: 90%;
+	height: auto;
+}
+.box{
+	width: 90%;
+	height: auto;
+	margin: auto;
+}
+
+
+
+
+
