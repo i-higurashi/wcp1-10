@@ -13,6 +13,7 @@
 
 header{
 	background-color: #EC715F;
+	height: 70px;
 }
 
 .headerbox{
@@ -43,11 +44,9 @@ header{
 	display: inline-block;
 	list-style: none;
 	float: right;
-	padding-right: 30px;
-	padding-left: 30px;
-	padding-top: 20px;
+	line-height: 70px;
+	padding: 0 30px;
 }
-
 
 .loremlpsum{
     height: 650px;
@@ -371,6 +370,11 @@ header{
 	float:left;
 }
 
+.contactcutcut{
+	width: 200px;
+	margin: 0 auto;
+}
+
 .contactcut2{
     width:400px;
 	float:right;
@@ -378,24 +382,21 @@ header{
 
 .contact-text2{
 	font-size: 20px;
-	text-align: center;
 }
 
 .contact-text3{
 	font-size: 15px;
-	text-align: center;
 	margin-top: 5px;
+
 }
 
 .contact-text4{
 	font-size: 20px;
 	margin-top: 20px;
-	text-align:center;
 }
 
 .contact-text5{
 	font-size: 15px;
-    text-align: center;
     margin-top: 5px;
 }
 
@@ -407,6 +408,7 @@ header{
 .contacticon-text{
 	font-size: 20px;
 	margin-bottom: 5px;
+	margin-top: 20px;
 }
 
 .fa-facebook-square{
@@ -432,7 +434,7 @@ footer{
 	background-color: #EC715F;
 	color:#FAFAFA;
 	text-align: center;
-	padding-top: 20px;
+	line-height: 60px;
 
 }
 
@@ -440,6 +442,7 @@ footer{
 .imgfail{
 	width: 920px;
 	height: 600px;
+	margin: 0 auto;
 }
 .box{
 	width: 920px;
@@ -448,9 +451,7 @@ footer{
 }
 @media screen and (max-width:425px) {
   html {
-    width: 90%;
-	margin-right: 5%;
-    margin-left: 5%;
+
 }
 
 .header1{
@@ -550,9 +551,11 @@ footer{
     margin-left: 5%;
 }
 
-.ai1{
+.ai1, .ai2, .ai3{
 	margin: 0 auto;
+	width: 100%;
 }
+
 
 .ai1-text2{
 	margin-bottom: 30px;
